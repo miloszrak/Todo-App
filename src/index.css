@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+}
+
+.pageTitle {
+  color: white;
+}
+
+.todoList {
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.createForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.createInput, .createTextArea {
+  color: white;
+  background-color: #1f1f1f;
+  border: 1px solid #0f0f0f;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 5px;
+}
+
+.createButton {
+  color: white;
+  background-color: #1f1f1f;
+  border: 1px solid #0f0f0f;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+.createButton:hover {
+  color: #0f0f0f;
+  background-color: lightblue;
+}
+
+.todoItem {
+  color: white;
+  border: 2px solid #0f0f0f;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.todoItem__title, .todoItem__description {
+  text-align: left;
+}
+
+.todoItem__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.todoItem__buttons button {
+  margin: 5px;
+}
